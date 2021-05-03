@@ -1,0 +1,63 @@
+[
+  {
+    "faction name": {
+      "strategem name" :{
+        "type": "type goes here",
+        "cost": 1,
+        "description": "description here",
+        "phases": ["phase"]
+      }
+    },
+    "world eaters": {
+      "Scorn of Sorcery" :{
+        "type": "wargear",
+        "cost": 1,
+        "description": "Use this strategem in your opponent's psychic phase, when and enemy PSYKER model manifests a psychic power within 24\" of any WORLD EATERS unit in your army. Roll 1D6, on a 4+ the effects of that psychi power are negated",
+        "phases": [],
+        "enemy phases": ["psychic"]
+      },
+      "Apoplectic Frenzy" :{
+        "type": "wargear",
+        "cost": 1,
+        "description": "Use this strategem during deployment, when you setup a WORLD EATERS INFANTRY unit from your army. At the start of the first battle round but before the first turn begins, you can move that unit up to 9\". It cannot end this move within 9\" of any enemy models. If both players have units that can move before the first turn begins, the player who is taking the first turn moves their units first",
+        "phases": ["deployment"],
+        "enemy phases": []
+      },
+      "Skulls for the Skull Throne" :{
+        "type": "wargear",
+        "cost": 1,
+        "description": "Use this strategem in the fight phase, when an enemy CHARACTER model is destroyed as a result of an attack made with a melee weapon by a WORLD EATER CHARACTER model from your army. Gain D3 command points",
+        "phases": ["fight"],
+        "enemy phases": ["fight"]
+      },
+      "Red Butchers" :{
+        "type": "wargear",
+        "cost": 2,
+        "description": "Use this strategem before the battle. Select one WORLD EATERS CHAOS TERMINATORS unit from your army. Add 1 to the strength characteristic of models in that unit, and that unit gains the following ability: 'Blood for the Blood God: This unit can fight twice in each Fight phase, instead of only once.' You can only use this strategem once per battle.",
+        "phases": ["before"],
+        "enemy phases": []
+      },
+      "KILL! MAIM! BURN!" :{
+        "type": "wargear",
+        "cost": 1,
+        "description": "Use this strategem in the Fight phase, before you consolidate with a WORLD EATERS unit from your army. Until the end of that phase, each model in that unti can move up to 6\" when they consolidate, instead of 3\".",
+        "phases": ["fight"],
+        "enemy phases": ["fight"]
+      },
+      "Wild Fury" :{
+        "type": "wargear",
+        "cost": 1,
+        "description": "Use this strategem in the Fight phase, when you select a WORLD EATERS unit from your army to fight with. Until the end of that phase, improve the Armour Penetration characteristic of melee weapons models in that unit are equipped with by 1 (e.g. AP 0 becomes Ap -1).",
+        "phases": ["fight"],
+        "enemy phases": ["fight"]
+      },
+      "Stoke the Nails" :{
+        "type": "wargear",
+        "cost": 1,
+        "description": "Use this strategem in the Fight phase, when a WORLD EATERS INFANTRY or WORLD EATERS BIKER unit from your army that is not a CHAOS CULTIST is chosen to fight with. Until the end of that phase, that unit's Death to the False Emperor ability takes effect when targeting any enemy unit, not just IMPERIUM units. In addition, when targeting IMPERIUM units, the ability takes effect on hit rolls of 5+.",
+        "phases": ["fight"],
+        "enemy phases": ["fight"]
+      }
+    }
+  }
+]
