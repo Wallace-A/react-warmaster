@@ -57,6 +57,13 @@
         "description": "Use this strategem in the Fight phase, when a WORLD EATERS INFANTRY or WORLD EATERS BIKER unit from your army that is not a CHAOS CULTIST is chosen to fight with. Until the end of that phase, that unit's Death to the False Emperor ability takes effect when targeting any enemy unit, not just IMPERIUM units. In addition, when targeting IMPERIUM units, the ability takes effect on hit rolls of 5+.",
         "phases": ["fight"],
         "enemy phases": ["fight"]
+      },
+      "Blood for the Blood God" :{
+        "type": "wargear",
+        "cost": 2,
+        "description": "Use this strategem in the Fight phase, after an enemy unit is destroyed as a result of an attack made by a WORLD EATERS unti from your army. Until the start of your next turn, when a morale test is take for a friendly WORLD EATERS unti , do not roll the dice, it is automatically passed",
+        "phases": ["fight"],
+        "enemy phases": ["fight"]
       }
     }
   }
